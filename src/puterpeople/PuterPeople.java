@@ -18,11 +18,20 @@ public class PuterPeople {
      */
     public static void main(String[] args) {
       Scanner stdIn = new Scanner(System.in);
-        String number;
+        int number;
         System.out.print("Enter a number: ");
-        number = stdIn.nextLine();
-        System.out.println("Your number is " + number);
-  
+        number = stdIn.nextInt();
+        
+        for(int i = 1;i<=number;i++){
+            System.out.println(i);
+        }
+      
+      Scanner stdIn2 = new Scanner(System.in);
+        int nextNumber;
+        System.out.print("Enter another number: ");
+        nextNumber = stdIn2.nextInt();
+        System.out.println(nextNumber);
+
     }
     
 }
