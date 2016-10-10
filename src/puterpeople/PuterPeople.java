@@ -5,6 +5,8 @@
  */
 package puterpeople;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -32,6 +34,15 @@ public class PuterPeople {
         nextNumber = stdIn2.nextInt();
         System.out.println(nextNumber);
 
-    }
-    
-}
+        List<Integer> numbers= new ArrayList();
+        for (int i=0; i<0; i++){
+        numbers.add(i);
+        
+        }
+        int sum=0;
+        for(Integer j: numbers) {
+        }
+            if (nextNumber<0){
+        System.out.println(sum);
+            }}}
+           
