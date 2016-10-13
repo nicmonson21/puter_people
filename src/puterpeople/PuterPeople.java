@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package puterpeople;
 
 import java.util.ArrayList;
@@ -33,16 +28,21 @@ public class PuterPeople {
         System.out.print("Enter another number: ");
         nextNumber = stdIn2.nextInt();
         System.out.println(nextNumber);
-
-        List<Integer> numbers= new ArrayList();
-        for (int i=0; i<0; i++){
-        numbers.add(i);
-        
-        }
+     System.out.println();
+    double x = MathFunctions.SquareRootAndAddThree(nextNumber);
+    
+    
+    List<Integer> numbers= new ArrayList();
+        numbers.add(nextNumber);
         int sum=0;
         for(Integer j: numbers) {
-        }
-            if (nextNumber<0){
-        System.out.println(sum);
-            }}}
+            sum= sum +j;
+            System.out.println("The sum is " + sum);
            
+
+    
+            
+    }    
+        }       
+    }
+

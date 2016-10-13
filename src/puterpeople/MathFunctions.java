@@ -11,7 +11,13 @@ package puterpeople;
  */
 public class MathFunctions {
     
+public static double SquareRootAndAddThree(int nextNumber){
+    double result = Math.sqrt(nextNumber);
+    return result + 3;
 
 
 
+
+
+}
 }
