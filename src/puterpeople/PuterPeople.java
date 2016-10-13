@@ -27,9 +27,8 @@ public class PuterPeople {
         int nextNumber;
         System.out.print("Enter another number: ");
         nextNumber = stdIn2.nextInt();
-        System.out.println(nextNumber);
-     System.out.println();
-    double x = MathFunctions.SquareRootAndAddThree(nextNumber);
+        System.out.println();
+        double x = MathFunctions.SquareRootAndAddThree(nextNumber);
     
     
     List<Integer> numbers= new ArrayList();
